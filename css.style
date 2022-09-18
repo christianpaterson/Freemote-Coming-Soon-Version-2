@@ -1,0 +1,139 @@
+@font-face {
+  font-family: 'AdiHaus';
+  src: URL('https://assets.codepen.io/6060109/adihaus_regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "AdiHaus";
+  src: url("https://assets.codepen.io/6060109/adihaus_bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html { 
+  min-width: 100%;
+  min-height: 100vh;
+  font-family: AdiHaus;
+}
+
+body {
+  display: flex;
+}
+
+.main {
+  max-width: 550px;
+  margin: 0 auto;
+}
+
+#logo {
+  margin: 15px auto;
+  display: block;
+}
+
+#advertisement-mobile {
+  /* background: url("https://assets.codepen.io/6060109/mobile-shoes.jpg");
+  background-size: cover;
+  background-position: 50% 60%; */
+  background: 50% 60% / cover url("https://assets.codepen.io/6060109/mobile-shoes.jpg");
+  height: 250px;
+  width: 100%;
+}
+
+.content-container {
+  padding: 20px 30px;
+}
+
+.text-container {
+  width: 100%;
+  text-align: center;
+}
+
+h2 {
+  font-size: 48px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+p {
+  line-height: 28px;
+  margin: 20px 0 40px;
+  color: #333333;
+}
+
+h2:nth-of-type(1) {
+  color: #5186f5;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+h2:nth-of-type(2) {
+  color: #423A3A
+}
+
+form {
+  display: flex;
+}
+
+input[type="email"] {
+  width: 75%;
+  padding: 0 20px;
+  height: 50px;
+  /*so input boxes same size*/
+}
+
+input[type="submit"] {
+  width: 20%;
+  height: 50px;  
+  background: rgb(138,138,138);
+  background: linear-gradient(90deg, rgba(138,138,138,1) 0%, rgba(32,32,32,1) 100%);
+  font-weight: 100;
+  font-size: 38px;
+  color: white;
+  border: none;
+}
+
+.desktop-advertisement {
+  display: none;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  
+  body {
+    background: url('https://assets.codepen.io/6060109/waves.png');
+    background-size: cover;
+  }
+  
+  .main {
+    width: 50%;
+  }  
+  .text-container {
+    text-align: left;
+  }
+  #advertisement-mobile {
+    display: none;
+  }  
+  #logo {
+    margin: 30px 30px 100px;
+    display: block;
+  }
+  .desktop-advertisement {
+    display: block;
+    width: 50%;
+    background: url('https://assets.codepen.io/6060109/shoes.png');
+    background-size: cover;
+  }
+  
+  h2 {
+    font-size: 64px;
+  }
+}
