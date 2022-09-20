@@ -105,8 +105,8 @@ input[type="submit"] {
   display: none;
 }
 
-/* Medium devices (landscape tablets, 850px and up) */
-@media only screen and (min-width: 850px) {
+/* Medium devices (landscape tablets, 900px and up) */
+@media only screen and (min-width: 900px) {
   
   body {
     background: url('https://assets.codepen.io/6060109/waves.png');
