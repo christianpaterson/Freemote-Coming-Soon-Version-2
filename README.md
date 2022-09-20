@@ -1,6 +1,6 @@
 # Freemote-Coming-Soon-Version-2
 
-Live webpage could be viewed at: https://christianpaterson.github.io/Freemote-Coming-Soon-Version-2
+Live webpage can be viewed at: https://christianpaterson.github.io/Freemote-Coming-Soon-Version-2
 
 ## The challenge
 
