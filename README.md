@@ -6,7 +6,7 @@ Live webpage can be viewed at: https://christianpaterson.github.io/Freemote-Comi
 
 The challenge was to build a mobile/desktop responsive landing page 
 
-## Technologies used to create the project 
+## Technologies used to create the project
 
 <ul>
 <li>HTML5</li>
