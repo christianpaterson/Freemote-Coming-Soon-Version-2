@@ -15,3 +15,5 @@ The challenge was to build a mobile/desktop responsive landing page
 <li>GITHUB</li>
 <li>Chrome developer tools</li>
 </ul>
+
+### Thanks for checking me out!! :)
